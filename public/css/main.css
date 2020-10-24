@@ -92,7 +92,7 @@ pagina alto*/
  .super-top{
   display: flex;
   min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0), transparent),url("./../img/prova1.jpg"); 
+  background: linear-gradient(rgba(0,0,0,0), transparent),url("../images/prova1.jpg"); 
   background-size: cover;
   background-position: center;
   color: white;
@@ -232,5 +232,3 @@ media query per responsivet*/
     width: 100%;
   }
 }
-
-
