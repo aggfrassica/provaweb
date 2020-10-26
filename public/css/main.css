@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -9,7 +9,9 @@ html{
   font-size: 62.5%;
 }
 body{
-	font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  height: 3000px; /* !remove me */
+  background-color: #313131;
 }
 p{
   font-size: 2rem;
@@ -20,72 +22,19 @@ a{
 }
 a{
   color: white;
-  transition: 0.4s;
   font-size: 2rem;
 }
 
-/*navbar*/
- .nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items:  center;
-  transition: 0.6s;
-  padding: 40px 100px;
-
-}
-.nav.sticky{
-  padding: 5px 100px;
-  background: #fff;
-}
-.nav .logo{
-
-  position: relative;
-  font-weight: 700;
-  color : #fff;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transition: 0.6s;
-}
-.nav ul{
-  position : relative;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.nav ul li{
-
-  position: relative;
-  list-style:none;
-}
-.nav ul li a{
-  position: relative;
-  margin: 0 40px;
-  text-decoration: none;
-  color : #fff;
-  letter-spacing: 2px;
-  font-weight: 500px;
-  transition: 0.6s;
-}
-.nav.sticky ul li a {
-
-  color: #000;
-
+button{
+  outline: none;
+  cursor: pointer;
 }
 
-#scegli img{
-  width: 7rem;
-  z-index: 5;
-  position: fixed;
-  bottom: 2vh;
-  right: 2vw;
-  filter: drop-shadow(0px 0px 20px white);
+.centered{
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 
 /*
 pagina alto*/
@@ -123,79 +72,6 @@ pagina alto*/
 
 
 /*pagina scegli fascia*/
-#scegli{
-  background: #000;
-}
-
-.contact_us{
-  display: flex;
-  min-height: 60vh;
-  background:linear-gradient(rgba(0,0,0,0.7), transparent) #14181a;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  
-  /* flex-direction: column; */
-}
-.contact_us h1{
-  font-size: 4rem;
-  padding: 2rem;
-}
-.contact_us h2{
-  font-weight: 300;
-  font-size: 2rem;
-  padding: 2rem;
-}
-
-.menu{
-  display: flex;
-  min-height: 70vh;
-  background: linear-gradient(rgba(0,0,0,0.7), transparent),url("./../img/ristorante/menu.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  
-  /* flex-direction: column; */
-}
-.menu h1{
-    font-size: 4rem;
-    padding: 2rem;
-  }
-  .menu h2{
-    font-weight: 300;
-    font-size: 2rem;
-    padding: 2rem;
-  }
-  .dovesiamo{
-    display: flex;
-    min-height: 70vh;
-    background: linear-gradient(rgba(0,0,0,0.7), transparent);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    
-    /* flex-direction: column; */
-  }
-  .dovesiamo h1{
-      font-size: 4rem;
-      padding: 2rem;
-    }
-    .dovesiamo h2{
-      font-weight: 300;
-      font-size: 2rem;
-      padding: 2rem;
-    }
-.spacer{
-  display: flex;
-  min-height: 50vh;
-  background: #bbb;
-  background-size: cover;
-  background-position: center;
- 
-  
-  /* flex-direction: column; */
-}
-
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -207,28 +83,6 @@ pagina alto*/
 }
 
 
-/*
-media query per responsivet*/
 
-@media screen and (max-width: 950px){
-  /*body{
-    display: none;
-  }*/
-  html{
-    font-size: 60%;
-  }
-  nav{
-    display: flex;
-    text-align: center;
-  }
-  #logo{
-    padding: 2rem;
 
-  }
-  .mySlides{
-    flex-wrap: wrap;
-  }
-  .mostra-fascia{
-    width: 100%;
-  }
-}
+
