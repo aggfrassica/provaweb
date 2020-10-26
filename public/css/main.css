@@ -83,6 +83,41 @@ pagina alto*/
 }
 
 
+#mainmid{
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#mainmid .container{
+  position: relative;
+  width: 90%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainmid .container div{
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#mainmid .container div h2{ text-align: center };
+
+
+/* ---- tablet/smartphone ---- */
+/* PERCHÈ NON FUNGE DIO STRACANE */
+@media screen and (max-width: 767px) {
+
+  #mainmid .container { display: block; }
+  #mainmid .container div { display: block; }
+
+}
 
 
 
