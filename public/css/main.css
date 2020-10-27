@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -86,6 +86,31 @@ body{
   text-decoration: none;
   margin-top: 90px;
 }
+  
+
+p{
+  font-size: 2rem;
+	padding: 3rem;
+}
+a{
+  text-decoration: none;
+}
+a{
+  color: white;
+  font-size: 2rem;
+}
+
+button{
+  outline: none;
+  cursor: pointer;
+}
+
+.centered{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
 /*
 pagina alto*/
  .super-top{
@@ -119,12 +144,14 @@ pagina alto*/
   font-size: 1.8rem;
   cursor: pointer;
 }
-.img-case{
-	width: 100%;
-}
 
 
 
+
+
+
+
+/*pagina scegli fascia*/
 
 
 @-webkit-keyframes fade {
@@ -137,28 +164,41 @@ pagina alto*/
 }
 
 
-/*
-media query per responsivet*/
-
-@media screen and (max-width: 950px){
-  /*body{
-    display: none;
-  }*/
-  html{
-    font-size: 60%;
-  }
-  nav{
-    display: flex;
-    text-align: center;
-  }
-  #logo{
-    padding: 2rem;
-
-  }
-  .mySlides{
-    flex-wrap: wrap;
-  }
-  .mostra-fascia{
-    width: 100%;
-  }
+#mainmid{
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
+
+#mainmid .container{
+  position: relative;
+  width: 90%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainmid .container div{
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#mainmid .container div h2{ text-align: center };
+
+
+/* ---- tablet/smartphone ---- */
+/* PERCHÈ NON FUNGE DIO STRACANE */
+@media screen and (max-width: 767px) {
+
+  #mainmid .container { display: block; }
+  #mainmid .container div { display: block; }
+
+}
+
+
+
