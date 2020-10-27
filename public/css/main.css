@@ -69,11 +69,10 @@ body{
 }
 
 
-  .content li{
-    
+.content li{
     font-size: 2.5em;
     color: #000;
-  }
+}
   .contetn ul li:before {
   content: '✓';
 }
@@ -112,8 +111,7 @@ button{
 }
 
 
-/*
-pagina alto*/
+/*pagina alto*/
  .super-top{
   display: flex;
   min-height: 100vh;
@@ -149,9 +147,51 @@ pagina alto*/
 
 
 
+/* section3 */
+.boxscegli{
+  display: flex;
+  min-height: 100vh;
+    background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: #313131;
 
+}
+.boxscegli .divscegli{
+  position: relative;
+  width: auto;
+  padding: 50px;
+  display: flex;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+}
+.boxscegli .divscegli .box{
+  position: relative;
 
-
+}
+.boxscegli .divscegli .box .line{
+  width: 80%;
+height: 40%;
+border-bottom: 1px solid black;
+position: relative;
+display: flex;
+margin-left: 10%;
+}
+.boxscegli .divscegli .box h1{
+  position: relative;
+  font-size: 2.5em;
+  padding: 40px;
+}
+.boxscegli .divscegli .box .content{
+  position: relative;
+  font-size: 2em;
+  padding: 40px;
+}
 /*pagina scegli fascia*/
 
 
