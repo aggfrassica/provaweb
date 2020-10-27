@@ -1,0 +1,30 @@
+.top{
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), transparent),url("./../img/ecommerce.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .top h1{
+    font-size: 4rem;
+    padding: 2rem;
+  }
+  .top h2{
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .top a{
+    margin-top: 5rem;
+    padding: 2rem 6rem;
+    background: #313131;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }

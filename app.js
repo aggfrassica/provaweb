@@ -25,6 +25,10 @@ app.get('/vetrina', (req, res) => {
     res.status(200);
     res.render(path.join(__dirname, 'views', 'vetrina.ejs'));
 });
+app.get('/ecommerce', (req, res) => {
+    res.status(200);
+    res.render(path.join(__dirname, 'views', 'ecommerce.ejs'));
+});
 
 // handle tutte le route non gestite
 app.get('*', (req, res) => {
