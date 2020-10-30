@@ -4,6 +4,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
+    z-index: 100;
 }
 
 /* navbar regular css start */
