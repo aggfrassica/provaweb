@@ -16,10 +16,12 @@ body{
 .top{
     display: flex;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.8), transparent),url("./../img/ecommerce.jpg"); 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,128,123,1) 85%),url("./../img/ecommerce.jpg"); 
     background-size: cover;
     background-position: center;
-    color: white;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    color: black;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -42,6 +44,13 @@ body{
     color: white;
     font-size: 1.8rem;
     cursor: pointer;
+  }
+  /* wave */
+  .wave{
+    position: absolute;
+    width: 100%;
+    bottom: -90px;
+    opacity: 1;
   }
   /* ads */
 .mid {
