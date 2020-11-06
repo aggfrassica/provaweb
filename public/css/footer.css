@@ -1,0 +1,27 @@
+
+#footer .container{
+
+}
+
+#footer .top{
+    background-color: darkgrey;
+    height: 20px;
+}
+
+#footer .midd{
+    background-color: darkslateblue;
+    height: auto;
+}
+
+#footer .midd .container{
+    background-color: darkslateblue;
+    height: auto;
+    width: 80%;
+}
+
+#footer .midd div{
+    background-color: darkslateblue;
+    height: auto;
+    width: 20%;
+}
+
