@@ -1,0 +1,322 @@
+
+
+/*pagina alto*/
+.super-top {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,128,123,1) 85%), url("./../img/wp2.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-blend-mode: overlay;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.super-top h1 {
+  font-size: 4rem;
+  padding: 2rem;
+  margin-top: 60px;
+}
+
+.super-top h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.super-top a {
+  margin-top: 5rem;
+  padding: 2rem 6rem;
+  border: none;
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+/* wave */
+.wave{
+  position: absolute;
+  width: 100%;
+  bottom: -120px;
+  color: #fff;
+  opacity: 1;
+}
+
+
+
+/* section3 */
+
+#scegli {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+
+}
+
+.boxscegli {
+  text-align: center;
+  position: relative;
+  margin-top: 9%;
+}
+
+.boxscegli .divscegli {
+  position: relative;
+  display: flex;
+  width: 85%;
+  max-width: 1200px;
+
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.boxscegli .divscegli .box {
+  position: relative;
+
+}
+
+.boxscegli .divscegli .box .line {
+  width: 80%;
+  height: 40%;
+  border-bottom: 1px solid black;
+  position: relative;
+  display: flex;
+  margin-left: 10%;
+}
+
+.boxscegli .divscegli .box h1 {
+  position: relative;
+  font-size: 2.5em;
+  padding: 40px;
+}
+
+.boxscegli .divscegli .box .content {
+  position: relative;
+  font-size: 2em;
+  padding: 40px;
+}
+/* wave */
+.wave2{
+  position: relative;
+  width: 100%;
+  bottom: -10px;
+  opacity: 1;
+}
+
+/*abbonamento*/
+
+#offerta {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* margin-top: 9%; */
+  background: #EEDBD9;
+  
+  position: relative;
+  overflow: hidden;
+  background-blend-mode: overlay;
+}
+
+.abbonamento {
+  position: relative;
+  width: 85%;
+  max-width: 1200px;
+}
+
+
+
+
+.abbonamento .container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+  width: auto;
+}
+
+.abbonamento .container .card {
+  display: inline-block;
+  position: relative;
+  width: 29%;
+
+  height: 400px;
+
+
+  border-width: 1px;
+  border: 1px solid #000;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(2, 14, 70, 0.2);
+
+}
+
+
+.abbonamento .container .card .circle {
+
+  border-bottom: 1px solid #000;
+  position: relative;
+
+}
+
+.abbonamento .container .card h2 {
+  color: #000;
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.abbonamento .container .card .content {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.content li {
+  font-size: 2.5em;
+  color: #000;
+}
+
+.contetn ul li:before {
+  content: '✓';
+}
+
+.abbonamento .container .card a {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 20px;
+  background: 000;
+  color: #000;
+  border-radius: 40px;
+  text-decoration: none;
+  bottom: 20px;
+}
+
+
+.centered {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* wave3 */
+.wave3{
+  position: relative;
+  width: 100%;
+  opacity: 1;
+}
+
+
+
+
+
+/* ads */
+.mid {
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.mid .box {
+ 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 5%;
+  padding: 40px;
+}
+
+.mid .box .contenuto {
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.mid .box .contenuto .contenuto_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.mid .box .contenuto img {
+  width: 30%;
+  max-width: 100%;
+  border-style: none;
+}
+
+.mid .box .contenuto h3 {
+  font-size: 6em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.mid .box .contenuto h4 {
+  font-size: 3em;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 3%;
+}
+
+.mid .box .contenuto p {
+  font-size: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/*pagina scegli fascia*/
+
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .abbonamento .container .card {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .abbonamento .container,
+  .boxscegli .divscegli {
+    display: block;
+  }
+
+}
