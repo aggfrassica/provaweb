@@ -2,9 +2,11 @@
 .top{
     display: flex;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.8), transparent),url("./../img/vetrina2.jpg"); 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,128,123,1) 85%),url("./../img/vetrina2.jpg"); 
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    background-blend-mode: overlay;
     color: white;
     justify-content: center;
     align-items: center;
@@ -28,6 +30,14 @@
     color: white;
     font-size: 1.8rem;
     cursor: pointer;
+  }
+
+   /* wave */
+   .wave{
+    position: absolute;
+    width: 100%;
+    bottom: -90px;
+    opacity: 1;
   }
   /* ads */
 .mid {
