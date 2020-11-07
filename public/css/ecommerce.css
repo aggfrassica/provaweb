@@ -1,18 +1,4 @@
-*,
-*::before,
-*::after{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-html{
-  font-size: 60%;
-}
-body{
-  font-family: 'Poppins', sans-serif;
- 
-  min-height: 100vh;
-}
+
 .top{
     display: flex;
     min-height: 100vh;
